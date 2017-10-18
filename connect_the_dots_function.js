@@ -6,7 +6,7 @@ var points = [[50, 50], [50, 100], [100, 100], [100, 50], [50, 50]];
 function connectDots(newArray) {
 
     for (var x = 0; x < newArray.length; x++) {
-        for (var y = 0; y < 2; y++) {
+        for (var y = 0; y < 1; y++) {
             ctx.moveTo(newArray[x][y], newArray[x][y+1]);
             ctx.lineTo(newArray[x+1][y], newArray[x+1][y+1]);
             ctx.stroke();
